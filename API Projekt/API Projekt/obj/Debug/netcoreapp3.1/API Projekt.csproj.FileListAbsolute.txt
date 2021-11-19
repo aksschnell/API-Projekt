@@ -1,0 +1,21 @@
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.exe
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.deps.json
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.runtimeconfig.json
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.runtimeconfig.dev.json
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\netcoreapp3.1\API Projekt.pdb
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.csproj.AssemblyReference.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.AssemblyInfoInputs.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.AssemblyInfo.cs
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.csproj.CoreCompileInputs.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\staticwebassets\API Projekt.StaticWebAssets.Manifest.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\staticwebassets\API Projekt.StaticWebAssets.xml
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\scopedcss\bundle\API Projekt.styles.css
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.RazorTargetAssemblyInfo.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.pdb
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\netcoreapp3.1\API Projekt.genruntimeconfig.cache
