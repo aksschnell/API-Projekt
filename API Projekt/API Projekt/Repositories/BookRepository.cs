@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API_Projekt.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace API_Projekt.Repositories
 {
@@ -26,25 +27,26 @@ namespace API_Projekt.Repositories
 
         public async Task Delete(int id)
         {
-            var bookToDelete = await _context.Books.FindAsync();
+            var bookToDelete = await _context.Books.FindAsync(id);
 
             _context.Books.Remove(bookToDelete);
             await _context.SaveChangesAsync();
         }
 
-        public Task<IEnumerable<Book>> Get()
+        public async Task<IEnumerable<Book>> Get()
         {
-            throw new NotImplementedException();
+            return await _context.Books.ToListAsync();
         }
 
-        public Task<Book> Get(int id)
+        public async Task<Book> Get(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Books.FindAsync(id);
         }
 
-        public Task Update(Book book)
+        public async Task Update(Book book)
         {
-            throw new NotImplementedException();
+            _context.Entry(book).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
     }
 }

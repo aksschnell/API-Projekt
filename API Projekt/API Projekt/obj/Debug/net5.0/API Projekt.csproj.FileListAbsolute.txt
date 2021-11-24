@@ -48,3 +48,8 @@ C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug
 C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\net5.0\ref\API Projekt.dll
 C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\net5.0\API Projekt.pdb
 C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\net5.0\API Projekt.genruntimeconfig.cache
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\augu1699\Documents\GitHub\API-Projekt\API Projekt\API Projekt\obj\Debug\net5.0\API Projekt.MvcApplicationPartsAssemblyInfo.cs

@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using API_Projekt.Models;
+using API_Projekt.Repositories;
 
 namespace API_Projekt
 {
@@ -27,9 +28,14 @@ namespace API_Projekt
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IBookRepository, BookRepository>();
             services.AddDbContext<BookContext>(o => o.UseSqlite("Data source=books.db"));
             services.AddControllers();
+            services.AddSwaggerGen();
+
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -37,6 +43,8 @@ namespace API_Projekt
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();
