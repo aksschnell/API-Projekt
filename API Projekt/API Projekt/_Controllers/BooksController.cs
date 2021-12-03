@@ -12,7 +12,9 @@ namespace API_Projekt._Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ApiKey]
+  
+    
+   
     public class BooksController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;

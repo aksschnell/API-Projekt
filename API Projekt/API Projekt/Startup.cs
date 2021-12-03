@@ -28,10 +28,28 @@ namespace API_Projekt
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IBookRepository, BookRepository>();
-            services.AddDbContext<BookContext>(o => o.UseSqlite("Data source=books.db"));
+
+            services.AddCors(); // Make sure you call this previous to AddMvc
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+
+
+
+            services.AddScoped<IBookRepository, BookRepository>();            
+            var connection = @"Data Source=localhost;Initial Catalog=Books;Integrated Security=True;";
+            services.AddDbContext<BookContext>(options => options.UseSqlServer(connection));
+              
+
             services.AddControllers();
+
+
             services.AddSwaggerGen();
+
+        
+
+         
+
+
 
         }
 
@@ -45,7 +63,14 @@ namespace API_Projekt
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI();
+               
+
+
             }
+    
+
+            app.UseCors();
+            
 
             app.UseHttpsRedirection();
 
