@@ -43,6 +43,30 @@ namespace API_Projekt.Repositories
             return await _context.Books.FindAsync(id);
         }
 
+        public async Task<IEnumerable<Book>> Search(string title, string author, string genre)
+        {
+            IQueryable<Book> query = _context.Books;
+
+            if (!string.IsNullOrEmpty(title))
+            {
+                query = query.Where(e => e.Title.Contains(title));
+            }
+
+            if (!string.IsNullOrEmpty(author))
+            {
+                query = query.Where(e => e.Author.Contains(author));
+            }
+
+            if (!string.IsNullOrEmpty(genre))
+            {
+                query = query.Where(e => e.Genre.Contains(genre));
+            }
+
+
+
+            return await query.ToListAsync();
+        }
+
         public async Task Update(Book book)
         {
             _context.Entry(book).State = EntityState.Modified;

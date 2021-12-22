@@ -7,6 +7,7 @@ using API_Projekt.Models;
 using API_Projekt.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 
 namespace API_Projekt._Controllers
 {
@@ -18,6 +19,24 @@ namespace API_Projekt._Controllers
     public class BooksController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
+
+
+        //Search
+        [HttpGet("(search)")]
+        public async Task<ActionResult<IEnumerable<Book>>> Search(string title, string author, string genre)
+        {
+
+              var result = await  _bookRepository.Search(title, author, genre);
+
+                if (result.Any())
+                {
+                    return Ok(result);
+                }
+
+                return NotFound();
+          
+        }
+
 
         public BooksController(IBookRepository bookRepository)
         {

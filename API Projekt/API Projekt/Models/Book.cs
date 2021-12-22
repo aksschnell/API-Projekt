@@ -17,6 +17,10 @@ namespace API_Projekt.Models
 
         public string Description { get; set; }
 
+        public string ImageBackground { get; set; }
 
+        public string Genre { get; set; }
+
+        public int price { get; set; }
     }
 }
